@@ -159,7 +159,7 @@ app.get(['*/:param', '*'], (req, res) => {
 app.post('/password-reset', (req, response) => {
 
     var mailer = nodemailer.createTransport({
-        host: process.env.NODEMAILER_HOST,
+        service: process.env.NODEMAILER_SERVICE,
         auth: {
             user: process.env.NODEMAILER_AUTH_USER,
             pass: process.env.NODEMAILER_AUTH_PW
