@@ -1,10 +1,10 @@
 {
-  "dbString": "db_connection_string",
-  "jwtPrivateKey": "jwt_secret_key",
+  "dbString": "mongodb+srv://neha_chanu:ISDSpring2020@cluster0-cnwdz.gcp.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtPrivateKey": "39495903838gscjdi839843",
   "mailServer": {
       "auth": {
-          "user": "mailServer_user",
-          "pass": "mailServer_pass"
+          "user": "projecttestandtry@gmail.com",
+          "pass": "ISDSpring2020"
       }
   }
 }

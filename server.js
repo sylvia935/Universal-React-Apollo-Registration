@@ -169,6 +169,14 @@ app.post('/password-reset', (req, response) => {
     }
   });
 
+  // var mailer = nodemailer.createTransport({
+  //    service: config.get('mailServer.service'),
+  //    auth: {
+  //      user: config.get('mailServer.auth.user'),
+  //      pass: config.get('mailServer.auth.pass')
+  //    }
+  //  });
+
   mailer.use('compile', hbs({
     viewPath: 'build/public/assets/email_templates',
     extName: '.hbs'

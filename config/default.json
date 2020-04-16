@@ -1,13 +1,13 @@
 {
-  "dbString": "",
-  "jwtPrivateKey": "",
+  "dbString": "mongodb+srv://neha_chanu:ISDSpring2020@cluster0-cnwdz.gcp.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtPrivateKey": "39495903838gscjdi839843",
   "mailServer": {
-    "host": "-HOST-",
+    "host": "smtp.gmail.com",
     "auth": {
-      "user": "",
-      "pass": ""
+      "user": "projecttestandtry@gmail.com",
+      "pass": "ISDSpring2020"
     },
-    "from": "-FROM-EMAIL-",
+    "from": "projecttestandtry@gmail.com",
     "subject": "Password Reset"
   }
 }
